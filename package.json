@@ -1,0 +1,24 @@
+{
+  "name": "payment_system",
+  "version": "1.0.0",
+  "description": "Stripe Payment Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahashams12/Mern_Payment_System.git"
+  },
+  "keywords": [
+    "Mern",
+    "Strip",
+    "Api"
+  ],
+  "author": "Taha-Shams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahashams12/Mern_Payment_System/issues"
+  },
+  "homepage": "https://github.com/tahashams12/Mern_Payment_System#readme"
+}
