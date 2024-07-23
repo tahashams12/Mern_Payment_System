@@ -4,8 +4,10 @@
   "description": "Stripe Payment Integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon C:/xampp/htdocs/Mern-Proj(fron-end)/Payment_System/src/server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tahashams12/Mern_Payment_System.git"
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/tahashams12/Mern_Payment_System/issues"
   },
-  "homepage": "https://github.com/tahashams12/Mern_Payment_System#readme"
+  "homepage": "https://github.com/tahashams12/Mern_Payment_System#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "stripe": "^16.2.0"
+  }
 }

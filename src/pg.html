@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stripe Payment Form with Google Pay</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Stripe Payment Form</h2>
+    <form id="payment-form" method="post">
+        <div class="form-group" id="card-element">
+            <label for="card-element">Credit or Debit Card</label>
+            <div class="form-control"></div>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit" id="payableAmnt"></button>
+    
+    </form>
+    <p id="card-erros"></p>
+</div>
+
+<script src="pg.js">
+
+</script>
+
+</body>
+</html>
