@@ -42,7 +42,7 @@ const handlePayment = async (event) => {
         const data = await response.json();
        if(data.success){
         alert('Payment successful');
-        window.location.href="http://localhost:3000/pg.html";
+        window.location.href="http://localhost:3000/welcomePage.html";
        }else{
         alert('Payment failed. Please try again.');
        }
